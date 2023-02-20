@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\djHome\Desktop\cocos\lineage\proj.win32\CMakeFiles\e95255eee2c2ee1a7f75dafe5363cbe7\SYNC_RESOURCE-lineage.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\djHome\Desktop\cocos\lineage\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\djHome\Desktop\cocos\lineage\proj.win32\CMakeFiles\SYNC_RESOURCE-lineage" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7BC8293D-C303-3C51-84D6-A25D645E588E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

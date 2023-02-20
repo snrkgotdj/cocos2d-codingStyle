@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\djHome\Desktop\cocos\lineage\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\djHome\Desktop\cocos\lineage\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\djHome\Desktop\cocos\lineage\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pch.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Lineage\LineageScene.cpp">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Lineage\NodeUtils.cpp">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Lineage\ShopLayer.cpp">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Lineage\ShopService.cpp">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Lineage\ShopApi.cpp">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Lineage\ShopData.cpp">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\djHome\Desktop\cocos\lineage\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\djHome\Desktop\cocos\lineage\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\djHome\Desktop\cocos\lineage\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\djHome\Desktop\cocos\lineage\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\djHome\Desktop\cocos\lineage\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\djHome\Desktop\cocos\lineage\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\djHome\Desktop\cocos\lineage\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\djHome\Desktop\cocos\lineage\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\djHome\Desktop\cocos\lineage\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\djHome\Desktop\cocos\lineage\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pch.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Lineage\LineageScene.h">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Lineage\ncsoft.h">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Lineage\NodeUtils.h">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Lineage\ShopLayer.h">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Lineage\ShopService.h">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Lineage\ShopApi.h">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Lineage\ShopData.h">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Lineage\ShopDefine.h">
+      <Filter>Source Files\Classes\Lineage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\djHome\Desktop\cocos\lineage\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\djHome\Desktop\cocos\lineage\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{D5893C1D-F125-3238-9764-A3AD2D6EBD16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{BD8ABECA-FDA4-351C-BAAD-C510B8F3CBB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{620C5F7B-64A3-3886-AFBE-6A23004899E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0A926FC3-02E5-38D8-B670-3CE7E9FAB8DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{FE2DAD21-661C-3F3B-8CC3-4869442CCF88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{C769278F-7F6E-32A8-87F2-BED5B94268BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\Lineage">
+      <UniqueIdentifier>{7da491a1-3dce-46d6-8e45-d74ed1ba07c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
