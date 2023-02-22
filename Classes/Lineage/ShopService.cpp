@@ -12,18 +12,19 @@ USING_NS_SHOP
 
 void ShopService::requestShopMain(const std::function<void()>& func)
 {
-	cocos2d::network::HttpRequest* pRequest = ShopApi::get([func](/*const JSONNode& node*/) {
-			
+	cocos2d::network::HttpRequest* pRequest = ShopApi::get([func](/*const JSONNode& node*/) {		
+		// 성공 콜백
 		// 데이터 저장 및 갱신
-			ShopMainDataPtr pData = std::make_shared<ShopMainData>(/*node*/);
-			ShopData::getInst()->setShopMainData(pData);
+		ShopMainDataPtr pData = std::make_shared<ShopMainData>(/*node*/);
+		ShopData::getInst()->setShopMainData(pData);
 
-			if (func)
-			{
-				func();
-			}
+		// 각 레이어에서 전달받은 콜백을 실행
+		if (func)
+		{
+			func();
+		}
 
-		}, ShopService::processError);
+	}, ShopService::processError);
 
 	// 이렇게 해서 api를 전달하는 객체가 있다고 가정
 	//ApiServer::getInstance()->send(pRequest);
@@ -32,12 +33,16 @@ void ShopService::requestShopMain(const std::function<void()>& func)
 void ShopService::requestBuy(int itemNo, const std::function<void()>& func)
 {
 	cocos2d::network::HttpRequest* pRequest = ShopApi::buy(itemNo, [func](/*const JSONNode& node*/) {
-			
-			if (func)
-			{
-				func();
-			}
-		}, ShopService::processError);
+		// 획득한 보상 팝업 띄움
+		// Popup* pPopup = ReceieveRewardPopup::create(itemNo);
+		// pPopup->show();
+
+		// 각 레이어에서 전달받은 콜백을 실행
+		if (func)
+		{
+			func();
+		}
+	}, ShopService::processError);
 
 	// 이렇게 해서 api를 전달하는 객체가 있다고 가정
 	//ApiServer::getInstance()->send(pRequest);

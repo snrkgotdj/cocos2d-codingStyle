@@ -10,8 +10,9 @@ USING_NS_SHOP
 
 void ShopLayer::changeView()
 {
+	// 상점을 그리기위해 필요한 정보 요청
 	ShopService::requestShopMain([]() {
-		//화면 갱신
+		// 요청 성공 화면 전환
 		cocos2d::Node* pNode = innerCreate(ui::shopMain);
 		NodeUtils::changeView(pNode);
 	});	
@@ -104,7 +105,9 @@ void ShopLayer::onTabClick(int categoryNo)
 
 void ShopLayer::onItemClick(int itemNo)
 {
+	// 구매요청
 	ShopService::requestBuy(itemNo, [this]() {
+		// 요청 성공 후 화면 갱신
 		this->refresh();
 	});
 

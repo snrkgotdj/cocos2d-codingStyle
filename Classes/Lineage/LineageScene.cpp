@@ -22,6 +22,7 @@ bool LineageScene::init()
     if (false == Scene::init())
         return false;
 
+    // 진입과 동시에 상점으로 진입
     ShopLayer::changeView();
 
     return false;
